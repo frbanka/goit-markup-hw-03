@@ -177,21 +177,21 @@ body {
 .container {
   display: flex;
   width: 1200px;
-  justify-content: center;
 }
 .section {
   padding: 94px;
 }
 .header-container {
+  margin: 0 94px 0 94px;
   display: flex;
-  width: 1200px;
+  width: 1600px;
   justify-content: space-around;
   border-style: solid;
-  border-radius: 1px;
+  border-color: #e5e5e5;
+  border-width: 1px;
   border-left: none;
   border-right: none;
   border-top: none;
-  border-bottom: #e5e5e5;
 }
 .header-nav-container {
   display: flex;
@@ -204,8 +204,12 @@ body {
   justify-content: flex-end;
 }
 .flex-buttons {
-  max-width: 1200px;
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+.footer-cointainer {
+  margin: 0 94px 0 94px;
+  max-width: 1600px;
+  display: flex;
 }
