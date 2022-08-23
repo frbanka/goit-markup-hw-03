@@ -1,0 +1,174 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.image-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+}
+
+.image-text {
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-text {
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.name-text {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.web-title {
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.web-title-black {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.web-title-white {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.link-normal {
+  text-decoration: none;
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.link-normal:hover {
+  color: #2196f3;
+}
+
+.link-current {
+  color: #2196f3;
+}
+
+.contacts {
+  color: #757575;
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+}
+
+.mail {
+  text-decoration-line: underline;
+}
+
+.contacts:hover {
+  color: #2196f3;
+}
+
+.button-filter:hover {
+  background: #2196f3;
+}
+.button-filter {
+  cursor: pointer;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button-head {
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.button-head:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.header {
+  background: #ffffff;
+}
+
+.banner {
+  background: #2f303a;
+}
+.footer {
+  background: #2f303a;
+}
