@@ -172,3 +172,40 @@ body {
 .footer {
   background: #2f303a;
 }
+/* flexbox styles */
+
+.container {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+}
+.section {
+  padding: 94px;
+}
+.header-container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-around;
+  border-style: solid;
+  border-radius: 1px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: #e5e5e5;
+}
+.header-nav-container {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.header-contacts-container {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.flex-buttons {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

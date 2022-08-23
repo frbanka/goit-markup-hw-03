@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,192 +18,206 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <header class="header">
-    <a class="link-normal" href="./index.html"
-      ><span class="web-title">Web</span
-      ><span class="web-title-black">Studio</span>
-    </a>
-    <nav>
+    <div class="header-container">
+      <a class="link-normal" href="./index.html"
+        ><span class="web-title">Web</span
+        ><span class="web-title-black">Studio</span>
+      </a>
+      <nav>
+        <ul style="list-style: none">
+          <div class="header-nav-container">
+            <li><a class="link-normal" href="./index.html">Agencja</a></li>
+            <li>
+              <a class="link-normal link-current" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="link-normal" href="#">Kontakt</a></li>
+          </div>
+        </ul>
+      </nav>
       <ul style="list-style: none">
-        <li><a class="link-normal" href="./index.html">Agencja</a></li>
-        <li>
-          <a class="link-normal link-current" href="./portfolio.html"
-            >Portfolio</a
-          >
-        </li>
-        <li><a class="link-normal" href="#">Kontakt</a></li>
+        <div class="header-contacts-container">
+          <li>
+            <a class="contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </div>
       </ul>
-    </nav>
-    <ul style="list-style: none">
-      <li>
-        <a class="contacts" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-      </li>
-      <li><a class="contacts" href="tel:+48111111111">+48 111 111 111</a></li>
-    </ul>
+    </div>
   </header>
   <body>
     <main>
-      <section>
-        <ul style="list-style: none">
-          <li>
-            <button class="button-filter" type="button">Wszystkie</button>
-          </li>
-          <li><button class="button-filter" type="button">Strony</button></li>
-          <li>
-            <button class="button-filter" type="button">Aplikacje</button>
-          </li>
-          <li><button class="button-filter" type="button">Dizajn</button></li>
-          <li>
-            <button class="button-filter" type="button">Marketing</button>
-          </li>
-        </ul>
+      <section class="section">
+          <ul class="flex-buttons" style="list-style: none">
+            <li>
+              <button class="button-filter" type="button">Wszystkie</button>
+            </li>
+            <li><button class="button-filter" type="button">Strony</button></li>
+            <li>
+              <button class="button-filter" type="button">Aplikacje</button>
+            </li>
+            <li><button class="button-filter" type="button">Dizajn</button></li>
+            <li>
+              <button class="button-filter" type="button">Marketing</button>
+            </li>
+          </ul>
       </section>
-      <section>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/technocrack.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Technocrack</p>
-                <p class="image-text">Strona internetowa</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/orlean-star.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Grafika New Orlean vs Golden Star</p>
-                <p class="image-text">Dizajn</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/seafood.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Restauracja Seafood</p>
-                <p class="image-text">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/prime.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Projekt Prime</p>
-                <p class="image-text">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/boxes.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Projekt Boxes</p>
-                <p class="image-text">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/inspiration.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Inspiration has no Borders</p>
-                <p class="image-text">Strona internetowa</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/magasine.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Magazyn Limited Edition</p>
-                <p class="image-text">Dizajn</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/project-lab.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Projekt LAB</p>
-                <p class="image-text">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-        <ul style="list-style: none">
-          <li>
-            <figure>
-              <img
-                src="./images/growing.jpg"
-                width="370"
-                height="294"
-                alt="Photo of John Doe"
-              />
-              <figcaption>
-                <p class="image-title">Growing Business</p>
-                <p class="image-text">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/technocrack.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Technocrack</p>
+                  <p class="image-text">Strona internetowa</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/orlean-star.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Grafika New Orlean vs Golden Star</p>
+                  <p class="image-text">Dizajn</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/seafood.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Restauracja Seafood</p>
+                  <p class="image-text">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/prime.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Projekt Prime</p>
+                  <p class="image-text">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/boxes.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Projekt Boxes</p>
+                  <p class="image-text">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/inspiration.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Inspiration has no Borders</p>
+                  <p class="image-text">Strona internetowa</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/magasine.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Magazyn Limited Edition</p>
+                  <p class="image-text">Dizajn</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/project-lab.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Projekt LAB</p>
+                  <p class="image-text">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul style="list-style: none">
+            <li>
+              <figure>
+                <img
+                  src="./images/growing.jpg"
+                  width="370"
+                  height="294"
+                  alt="Photo of John Doe"
+                />
+                <figcaption>
+                  <p class="image-title">Growing Business</p>
+                  <p class="image-text">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
