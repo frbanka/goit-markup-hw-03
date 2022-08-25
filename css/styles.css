@@ -177,6 +177,7 @@ body {
 .container {
   display: flex;
   width: 1200px;
+  box-sizing: border-box;
 }
 .section {
   padding: 94px;
@@ -184,7 +185,6 @@ body {
 .header-container {
   margin: 0 94px 0 94px;
   display: flex;
-  width: 1600px;
   justify-content: space-around;
   border-style: solid;
   border-color: #e5e5e5;
@@ -210,6 +210,5 @@ body {
 }
 .footer-cointainer {
   margin: 0 94px 0 94px;
-  max-width: 1600px;
   display: flex;
 }
