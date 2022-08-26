@@ -2,7 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-
+img {
+  display: block;
+}
 .image-title {
   font-weight: 700;
   font-size: 18px;
@@ -22,10 +24,12 @@ body {
 .main-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  align-items: center;
+  text-align: center;
 }
 .feature-title {
   font-weight: 700;
@@ -33,11 +37,13 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 0px 0px 10px 0px;
 }
 
 .feature-text {
+  max-width: 270px;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -47,6 +53,8 @@ body {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
+  text-align: center;
+  padding: 0px 0px 50px 0px;
 }
 
 .name-title {
@@ -144,15 +152,19 @@ body {
 }
 
 .button-head {
+  width: 200px;
+  height: 50px;
   cursor: pointer;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 30px;
   letter-spacing: 0.06em;
   color: #ffffff;
+  text-align: center;
+  align-items: center;
 }
 
 .button-head:hover {
@@ -179,6 +191,7 @@ body {
 
 .banner {
   background: #2f303a;
+  height: 600px;
 }
 .footer {
   background: #2f303a;
@@ -186,7 +199,7 @@ body {
   margin: auto;
   height: 225px;
 }
-/* flexbox styles */
+/* flexbox main styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -197,14 +210,15 @@ body {
   width: 1200px;
   height: 100%;
   margin: auto;
-  padding: 0px;
 }
+
 .section {
   max-width: 1600px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0px 94px 0px;
   margin: auto;
 }
+/* flexbox main styles */
+/* portolio header */
 .header-container {
   width: 1200px;
   height: 80px;
@@ -227,7 +241,9 @@ body {
   margin-right: 0px;
   margin-left: auto;
 }
-.photos-list {
+/* portolio header */
+/* portolio photo cards */
+.photos-cards {
   display: flex;
   height: 100%;
   list-style: none;
@@ -257,9 +273,58 @@ body {
   gap: 8px;
   padding-bottom: 50px;
 }
+/* portolio photo cards */
+/* portolio footer */
 .address-padd {
   padding: 20px 0px 0px 0px;
+  line-height: 24px;
 }
-.foot-flex {
+.address-padd span {
+  margin: 9px 0px 9px 0px;
+}
+.foot-padd {
   padding: 60px 0px 60px 0px;
+}
+/* portolio footer */
+/* agencja banner */
+.banner-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 94px 0px 0px 0px;
+}
+.ban-tit-items {
+  justify-content: center;
+  max-width: 696px;
+  max-height: 120px;
+}
+.ban-tit-button {
+  justify-content: center;
+}
+/* agencja banner */
+/* agencja czym sie zajmujemy */
+.about-section {
+  display: flex;
+  list-style: none;
+  max-width: 1170px;
+  gap: 30px;
+}
+.about-li {
+  justify-content: space-between;
+}
+.work-section {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+}
+.work-img {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 30px;
+}
+.work-subtitle {
+  list-style: none;
 }
