@@ -1,3 +1,4 @@
+/* html main styles */
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -193,7 +194,15 @@ img {
 }
 
 .banner {
-  background: #2f303a;
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/main-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   height: 600px;
 }
 .footer {
@@ -202,6 +211,7 @@ img {
   margin: auto;
   height: 225px;
 }
+/* html main styles */
 /* flexbox main styles */
 * {
   box-sizing: border-box;
@@ -277,7 +287,7 @@ img {
   padding-bottom: 50px;
 }
 /* portolio photo cards */
-/* portolio footer */
+/*  footer */
 .address-padd {
   padding: 20px 0px 0px 0px;
   line-height: 24px;
@@ -288,7 +298,21 @@ img {
 .foot-padd {
   padding: 60px 0px 60px 0px;
 }
-/* portolio footer */
+.foot-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.foot-item {
+  display: flex;
+  flex-direction: column;
+}
+.foot-item p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/*  footer */
 /* agencja banner */
 .banner-flex {
   display: flex;
@@ -339,3 +363,12 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+/* icons svg  styles */
+.icon {
+}
+.icon-contacts {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+/* icons svg  styles */

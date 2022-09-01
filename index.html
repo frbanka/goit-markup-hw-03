@@ -39,11 +39,17 @@
         </nav>
         <ul class="contact-list">
           <li>
+            <svg class="icon-contacts" height="12px" width="16px">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
             <a class="contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
+            <svg class="icon-contacts" height="16px" width="10px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
             <a class="contacts" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
@@ -208,15 +214,23 @@
   <footer class="footer">
     <section class="section foot-padd">
       <div class="container">
-        <a class="link-normal" href="./index.html"
-          ><span class="web-title">Web</span
-          ><span class="web-title-white">Studio</span></a
-        >
-        <address class="address-padd">
-          <span class="address">m. Warszawa, Aleje Jerozolimskie 21</span><br />
-          <span class="contacts mail">info@example.com</span><br />
-          <span class="contacts">+48 111 111 111</span><br />
-        </address>
+        <div class="foot-flex">
+          <div class="foot-item">
+            <a class="link-normal" href="./index.html"
+              ><span class="web-title">Web</span
+              ><span class="web-title-white">Studio</span></a
+            >
+            <address class="address-padd">
+              <span class="address">m. Warszawa, Aleje Jerozolimskie 21</span
+              ><br />
+              <span class="contacts mail">info@example.com</span><br />
+              <span class="contacts">+48 111 111 111</span><br />
+            </address>
+          </div>
+          <div class="foot-item">
+            <p>DOŁĄCZ DO NAS</p>
+          </div>
+        </div>
       </div>
     </section>
   </footer>
